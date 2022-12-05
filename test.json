@@ -1,0 +1,5837 @@
+{
+  "info": {
+    "_postman_id": "5c3ac23a-e609-4fc7-a92a-870d18423e93",
+    "name": "OpenWowi V1.0 - 1.1",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Anlagenbuchhaltung",
+      "item": [
+        {
+          "name": "Fixed Assets",
+          "item": [
+            {
+              "name": "Wowiport Api Get Diamant Assets",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/FixedAssets/Assets?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "FixedAssets",
+                    "Assets"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Wowiport Api Get Diamant Asset Depreciations",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/FixedAssets/AssetDepreciations?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "FixedAssets",
+                    "AssetDepreciations"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Wowiport Api Get Diamant Asset Cost Centers",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/FixedAssets/AssetCostCenters?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "FixedAssets",
+                    "AssetCostCenters"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Wowiport Api Get Diamant Asset Previews",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/FixedAssets/AssetPreviews?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "FixedAssets",
+                    "AssetPreviews"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Wowiport Api Get Diamant Asset Movements",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/FixedAssets/AssetMovements?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "FixedAssets",
+                    "AssetMovements"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Wowiport Api Get Diamant Asset Invest Tax Credits",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/FixedAssets/AssetInvestTaxCredits?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "FixedAssets",
+                    "AssetInvestTaxCredits"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auftragswesen",
+      "item": [
+        {
+          "name": "Commissioning",
+          "item": [
+            {
+              "name": "Commissioning Get Craft Activities",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.1/Commissioning/CraftActivities?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.1",
+                    "Commissioning",
+                    "CraftActivities"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commissioning Get Craft Process Types",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Commissioning/CraftProcessTypes?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Commissioning",
+                    "CraftProcessTypes"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commissioning Get Commission Types",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Commissioning/CommissionTypes?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Commissioning",
+                    "CommissionTypes"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commissioning Get Creditors (V1.1 im Belegsystem)",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Commissioning/Creditors?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Commissioning",
+                    "Creditors"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commissioning Get Craftsman V1.1",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.1/Commissioning/Craftsman?apiKey={{apiKey}}&limit=100&offset=0&includeMainCommunication=true&includePersonAddresses=true&includePersonCommunications=true&includePersonBankAccounts=true&includeCraftsmanAccessibility=true",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.1",
+                    "Commissioning",
+                    "Craftsman"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "offset",
+                      "value": "0"
+                    },
+                    {
+                      "key": "companyCodeId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "managementId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "creditorId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "creditorNumber",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "craftsmanId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "personId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "includeMainCommunication",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includePersonAddresses",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includePersonCommunications",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includePersonBankAccounts",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includeCraftsmanAccessibility",
+                      "value": "true"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commissioning Get Projects",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Commissioning/Projects?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Commissioning",
+                    "Projects"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commissioning Get Craft Processes",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Commissioning/CraftProcesses?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Commissioning",
+                    "CraftProcesses"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commissioning Get Commissions",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Commissioning/Commissions?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Commissioning",
+                    "Commissions"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commissioning Get Commission Items",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Commissioning/CommissionItems?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Commissioning",
+                    "CommissionItems"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commissioning Get Invoice Receipts",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Commissioning/InvoiceReceipts?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Commissioning",
+                    "InvoiceReceipts"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ausstattung",
+      "item": [
+        {
+          "name": "Manage Facilitiy and Components",
+          "item": [
+            {
+              "name": "Create Facility",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"Name\": \"\",\n  \"Count\": 0,\n  \"FacilityCatalogId\": 0,\n  \"Offset\": {\n    \"Value\": 0,\n    \"Description\": \"\"\n  },\n  \"FacilityStatusId\": 0,\n  \"BuildingId\": 0,\n  \"EconomicUnitId\": 0,\n  \"UseUnitId\": 0,\n  \"PropertyId\": 0\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/ManageFacilityAndComponents/Facility?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "ManageFacilityAndComponents",
+                    "Facility"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Facility",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/ManageFacilityAndComponents/Facility/:id?apiKey={{apiKey}}&id",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "ManageFacilityAndComponents",
+                    "Facility",
+                    ":id"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "id",
+                      "value": null
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "key": "id",
+                      "value": ""
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Update Facility",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"Name\": \"\",\n  \"Count\": 0,\n  \"FacilityCatalogId\": 0,\n  \"Offset\": {\n    \"Value\": 0,\n    \"Description\": \"\"\n  },\n  \"FacilityStatusId\": 0,\n  \"BuildingId\": 0,\n  \"EconomicUnitId\": 0,\n  \"UseUnitId\": 0,\n  \"PropertyId\": 0\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/ManageFacilityAndComponents/Facility/:id?apiKey={{apiKey}}&id",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "ManageFacilityAndComponents",
+                    "Facility",
+                    ":id"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "id",
+                      "value": null
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "key": "id",
+                      "value": ""
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Update Component",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"Name\": \"\",\n  \"Count\": 0,\n  \"RepairRelevance\": true,\n  \"LeaseRelevance\": true,\n  \"Comment\": \"\",\n  \"AcquisitionDate\": \"2022-08-09\",\n  \"WarrantyPeriod\": \"\",\n  \"WarrantyEnd\": \"2022-08-09\",\n  \"WarrantyConditions\": \"\",\n  \"Position\": \"\",\n  \"ValidFrom\": \"2022-08-09\",\n  \"ValidTo\": \"2022-08-09\",\n  \"ComponentStatusId\": 0,\n  \"ComponentCatalogId\": 0,\n  \"Offset\": {\n    \"Value\": 0,\n    \"Description\": \"\"\n  },\n  \"MeteringDevice\": {\n    \"MeterSerialNumber\": \"\",\n    \"EndOfGaugingTerm\": \"2022-08-09\",\n    \"InstallationDate\": \"2022-08-09\",\n    \"InitialValueOfMeteringDevice\": 0,\n    \"RemovalDate\": \"2022-08-09\",\n    \"SummationMeter\": false,\n    \"ReplacedByComponentId\": 0,\n    \"MeteringDeviceTypeId\": 0,\n    \"ValuationFactorKq\": 0,\n    \"ValuationFactorKc\": 0,\n    \"Virtual\": true\n  }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/ManageFacilityAndComponents/Facility/:id/Component/:componentId",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "ManageFacilityAndComponents",
+                    "Facility",
+                    ":id",
+                    "Component",
+                    ":componentId"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "dolor ",
+                      "disabled": true
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "key": "id",
+                      "value": ""
+                    },
+                    {
+                      "key": "componentId",
+                      "value": ""
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Component",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/ManageFacilityAndComponents/Facility/:facilityId/Component/:componentId?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "ManageFacilityAndComponents",
+                    "Facility",
+                    ":facilityId",
+                    "Component",
+                    ":componentId"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "key": "facilityId",
+                      "value": "",
+                      "description": "(Required) "
+                    },
+                    {
+                      "key": "componentId",
+                      "value": "",
+                      "description": "(Required) "
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Create Component",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"Name\": \"\",\n  \"Count\": ,\n  \"RepairRelevance\": true,\n  \"LeaseRelevance\": true,\n  \"Comment\": \"\",\n  \"AcquisitionDate\": \"2022-08-09\",\n  \"WarrantyPeriod\": \"\",\n  \"WarrantyEnd\": \"2022-08-09\",\n  \"WarrantyConditions\": \"\",\n  \"Position\": \"\",\n  \"ValidFrom\": \"2022-08-09\",\n  \"ValidTo\": \"2022-08-09\",\n  \"ComponentStatusId\": 0,\n  \"ComponentCatalogId\": 0,\n  \"Offset\": {\n    \"Value\": 0,\n    \"Description\": \"\"\n  },\n  \"MeteringDevice\": {\n    \"MeterSerialNumber\": \"\",\n    \"EndOfGaugingTerm\": \"2022-08-09\",\n    \"InstallationDate\": \"2022-08-09\",\n    \"InitialValueOfMeteringDevice\": 0,\n    \"RemovalDate\": \"2022-08-09\",\n    \"SummationMeter\": false,\n    \"ReplacedByComponentId\": 0,\n    \"MeteringDeviceTypeId\": 0,\n    \"ValuationFactorKq\": 0,\n    \"ValuationFactorKc\": 0,\n    \"Virtual\": true\n  }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/ManageFacilityAndComponents/Facility/:facilityId/Component?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "ManageFacilityAndComponents",
+                    "Facility",
+                    ":facilityId",
+                    "Component"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "key": "facilityId",
+                      "value": "",
+                      "description": "(Required) "
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Belegsystem",
+      "item": [
+        {
+          "name": "Accountancy Master Data",
+          "item": [
+            {
+              "name": "Accountancy Master Data Get Master Accounts",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyMasterData/MasterAccounts?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "AccountancyMasterData",
+                    "MasterAccounts"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Accountancy Master Data Get Balance Sheets",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyMasterData/BalanceSheets?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "AccountancyMasterData",
+                    "BalanceSheets"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Accountancy Master Data Creditors V1.1",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.1/AccountancyMasterData/Creditors?apiKey={{apiKey}}&limit=100&offset=0&includeMainAddress=true&includeMainCommunication=true&includeMainBankaccount=true&includePersonAddresses=true&includePersonCommunications=true&includePersonBankAccounts=true&includeTaxAuthorityExemptionOrder=true&includeIndividualSelectedManagement=true",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.1",
+                    "AccountancyMasterData",
+                    "Creditors"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "offset",
+                      "value": "0"
+                    },
+                    {
+                      "key": "companyCodeId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "managementId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "creditorId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "creditorNumber",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "personId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "includeMainAddress",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includeMainCommunication",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includeMainBankaccount",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includePersonAddresses",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includePersonCommunications",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includePersonBankAccounts",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includeTaxAuthorityExemptionOrder",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includeIndividualSelectedManagement",
+                      "value": "true"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Accountancy Master Data Get Cost Types",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyMasterData/CostTypes?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "AccountancyMasterData",
+                    "CostTypes"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Accountancy Master Data Get Cost Centers",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyMasterData/CostCenters?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "AccountancyMasterData",
+                    "CostCenters"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Accountancy Master Data Get Cost Units",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyMasterData/CostUnits?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "AccountancyMasterData",
+                    "CostUnits"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Accountancy Master Data Get Company Codes",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyMasterData/CompanyCodes?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "AccountancyMasterData",
+                    "CompanyCodes"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Accountancy Master Data Get Booking Type Accountancy",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyMasterData/BookingTypeAccountancy?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "AccountancyMasterData",
+                    "BookingTypeAccountancy"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Accountancy Master Data Get Company Code Type",
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "exec": [
+                      ""
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyMasterData/CompanyCodeType?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "AccountancyMasterData",
+                    "CompanyCodeType"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Accountancy Master Data Get Booking Type Loans",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyMasterData/BookingTypeLoans?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "AccountancyMasterData",
+                    "BookingTypeLoans"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Accountancy Master Data Get Booking Type Rent Accounting",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyMasterData/BookingTypeRentAccounting?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "AccountancyMasterData",
+                    "BookingTypeRentAccounting"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Accountancy Transaction Data",
+          "item": [
+            {
+              "name": "Master Account",
+              "item": [
+                {
+                  "name": "Accountancy Transaction Get Rent Account Bookings",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "text/plain"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyTransactionData/MasterAccount/RentAccountBookings?apiKey={{apiKey}}&year=2020",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "AccountancyTransactionData",
+                        "MasterAccount",
+                        "RentAccountBookings"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        },
+                        {
+                          "key": "year",
+                          "value": "2020"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Accountancy Transaction Get Rent Account Balances",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "text/plain"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyTransactionData/MasterAccount/RentAccountBalances?apiKey={{apiKey}}&fiscalYearNumber=2020",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "AccountancyTransactionData",
+                        "MasterAccount",
+                        "RentAccountBalances"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        },
+                        {
+                          "key": "fiscalYearNumber",
+                          "value": "2020"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Accountancy Transaction Data Get Master Account Balances",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "text/plain"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyTransactionData/MasterAccount/Balances?apiKey={{apiKey}}&fiscalYearNumber=2020",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "AccountancyTransactionData",
+                        "MasterAccount",
+                        "Balances"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        },
+                        {
+                          "key": "fiscalYearNumber",
+                          "value": "2020"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Accountancy Transaction Data Get Economic Unit Balances",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "text/plain"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyTransactionData/MasterAccount/EconomicUnitBalances?apiKey={{apiKey}}&fiscalYearNumber=2020",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "AccountancyTransactionData",
+                        "MasterAccount",
+                        "EconomicUnitBalances"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        },
+                        {
+                          "key": "fiscalYearNumber",
+                          "value": "2020"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Accountancy Transaction Data Get Economic Unit Bookings",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "text/plain"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyTransactionData/MasterAccount/EconomicUnitBookings?apiKey={{apiKey}}&fiscalYearNumber=2020",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "AccountancyTransactionData",
+                        "MasterAccount",
+                        "EconomicUnitBookings"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        },
+                        {
+                          "key": "fiscalYearNumber",
+                          "value": "2020"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Accountancy Transaction Data Get Use Unit Balances",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "text/plain"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyTransactionData/MasterAccount/UseUnitBalances?apiKey={{apiKey}}&fiscalYearNumber=2020",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "AccountancyTransactionData",
+                        "MasterAccount",
+                        "UseUnitBalances"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        },
+                        {
+                          "key": "fiscalYearNumber",
+                          "value": "2020"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Accountancy Transaction Data Get Loan Bookings",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "text/plain"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyTransactionData/MasterAccount/LoanBookings?apiKey={{apiKey}}&year=2020",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "AccountancyTransactionData",
+                        "MasterAccount",
+                        "LoanBookings"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        },
+                        {
+                          "key": "year",
+                          "value": "2020"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Accountancy Transaction Data Get Loan Balances",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "text/plain"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyTransactionData/MasterAccount/LoanBalances?apiKey={{apiKey}}&fiscalYearNumber=2020",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "AccountancyTransactionData",
+                        "MasterAccount",
+                        "LoanBalances"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        },
+                        {
+                          "key": "fiscalYearNumber",
+                          "value": "2020"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Accountancy Transaction Data Get Bookings",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "text/plain"
+                      }
+                    ],
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/AccountancyTransactionData/Bookings?apiKey={{apiKey}}&fiscalYearNumber=2020&bookingPeriodNumberFrom=1&bookingPeriodNumberTo=4",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "AccountancyTransactionData",
+                        "Bookings"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        },
+                        {
+                          "key": "fiscalYearNumber",
+                          "value": "2020"
+                        },
+                        {
+                          "key": "bookingPeriodNumberFrom",
+                          "value": "1"
+                        },
+                        {
+                          "key": "bookingPeriodNumberTo",
+                          "value": "4"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Berechtigungsknoten",
+      "item": [
+        {
+          "name": "Nodes",
+          "item": [
+            {
+              "name": "Wowiport Api Get Nodes",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/Nodes?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "Nodes"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Wowiport Api Get Nodes by ID",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/Nodes/:id?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "Nodes",
+                    ":id"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "key": "id",
+                      "value": "41706766",
+                      "description": "(Required) "
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Finanzierung",
+      "item": [
+        {
+          "name": "Loans",
+          "item": [
+            {
+              "name": "Loans Get Loan Types",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Loans/LoanTypes?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Loans",
+                    "LoanTypes"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Loans Get Loan Repayment Plan",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Loans/LoanRepaymentPlan?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Loans",
+                    "LoanRepaymentPlan"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Loans Get Borrower V1.1",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Loans/Borrower?apiKey={{apiKey}}&limit=100&offset=0",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Loans",
+                    "Borrower"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "offset",
+                      "value": "0"
+                    },
+                    {
+                      "key": "borrowerId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "borrowerNumber",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "personId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "includeMainAddress",
+                      "value": "true",
+                      "disabled": true
+                    },
+                    {
+                      "key": "includeMainCommunication",
+                      "value": "true",
+                      "disabled": true
+                    },
+                    {
+                      "key": "includeMainBankaccount",
+                      "value": "true",
+                      "disabled": true
+                    },
+                    {
+                      "key": "includePersonAddresses",
+                      "value": "true",
+                      "disabled": true
+                    },
+                    {
+                      "key": "includePersonCommunications",
+                      "value": "true",
+                      "disabled": true
+                    },
+                    {
+                      "key": "includePersonBankAccounts",
+                      "value": "true",
+                      "disabled": true
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Loans Get Lender Copy",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Loans/Lender?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Loans",
+                    "Lender"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Loans Get Lender V1.1",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.1/Loans/Lender?apiKey={{apiKey}}&Limit=100&Offset=0&includeMainAddress=true&includeMainCommunication=true&includeMainBankaccount=true&includePersonAddresses=true&includePersonCommunications=true&includePersonBankAccounts=true",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.1",
+                    "Loans",
+                    "Lender"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "Limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "Offset",
+                      "value": "0"
+                    },
+                    {
+                      "key": "lenderId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "lenderNumber",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "personId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "includeMainAddress",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includeMainCommunication",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includeMainBankaccount",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includePersonAddresses",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includePersonCommunications",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includePersonBankAccounts",
+                      "value": "true"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Loans Get Loan Master Data",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Loans/LoanMasterData?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Loans",
+                    "LoanMasterData"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Loans Get Loan Condition",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Loans/LoanCondition?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Loans",
+                    "LoanCondition"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Loans Get Loan Object Assignment",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Loans/LoanObjectAssignment?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Loans",
+                    "LoanObjectAssignment"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Loans Get Loan Online Repayment Plan",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Loans/LoanOnlineRepaymentPlan?apiKey={{apiKey}}&loanId=41706766",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Loans",
+                    "LoanOnlineRepaymentPlan"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "loanId",
+                      "value": "41706766"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Loans Get Loan Payout",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/Loans/LoanPayout?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "Loans",
+                    "LoanPayout"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mietenbuchhaltung",
+      "item": [
+        {
+          "name": "Rent Accounting Person Details",
+          "item": [
+            {
+              "name": "Rent Accounting Person Details Get Contractor Types",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccountingPersonDetails/ContractorTypes?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccountingPersonDetails",
+                    "ContractorTypes"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Person Details Get Contractors",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccountingPersonDetails/Contractors?apiKey={{apiKey}}&limit=100&offset&licenseAgreementId=3&personId&includeMainAddress=true&includeMainCommunication=true&includePersonAddresses=true&includePersonCommunications=true&includePersonBankAccounts=true",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccountingPersonDetails",
+                    "Contractors"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "offset",
+                      "value": null
+                    },
+                    {
+                      "key": "licenseAgreementId",
+                      "value": "3"
+                    },
+                    {
+                      "key": "personId",
+                      "value": null
+                    },
+                    {
+                      "key": "includeMainAddress",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includeMainCommunication",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includePersonAddresses",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includePersonCommunications",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includePersonBankAccounts",
+                      "value": "true"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Rent Accounting",
+          "item": [
+            {
+              "name": "Wowiport Api Get Use Unit Rent Adjustments",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccounting/UseUnitRentAdjustments?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccounting",
+                    "UseUnitRentAdjustments"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Get License Agreements",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccounting/LicenseAgreements?apiKey={{apiKey}}&limit=100&offset=",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccounting",
+                    "LicenseAgreements"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "offset",
+                      "value": ""
+                    },
+                    {
+                      "key": "useUnitId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "licenseAgreementId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "personId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "activeOn",
+                      "value": null,
+                      "disabled": true
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Get Contract Positions",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccounting/ContractPositions?apiKey={{apiKey}}&limit=100",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccounting",
+                    "ContractPositions"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "offset",
+                      "value": "",
+                      "disabled": true
+                    },
+                    {
+                      "key": "licenseAgreementId",
+                      "value": null,
+                      "disabled": true
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Get Contract Position Types",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccounting/ContractPositionTypes?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccounting",
+                    "ContractPositionTypes"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Get Contract Securities",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccounting/ContractSecurity?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccounting",
+                    "ContractSecurity"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Get Index Rental Agreements",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccounting/IndexRentalAgreement?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccounting",
+                    "IndexRentalAgreement"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Get Graduated Rental Agreements",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccounting/GraduatedRentAgreement?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccounting",
+                    "GraduatedRentAgreement"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Get Turnover Rent Agreements",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccounting/TurnoverRentAgreement?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccounting",
+                    "TurnoverRentAgreement"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Get VAT Option Agreements",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccounting/VATOptionAgreement?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccounting",
+                    "VATOptionAgreement"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Get Rental Upper Limits",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccounting/RentalUpperLimit?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccounting",
+                    "RentalUpperLimit"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Get Gross Rents Without Heating",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccounting/GrossRentsWithoutHeating?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccounting",
+                    "GrossRentsWithoutHeating"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Get Max Cost Distributions",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccounting/MaxCostDistribution?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccounting",
+                    "MaxCostDistribution"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Get Vacancy Reason",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccounting/VacancyReasons?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccounting",
+                    "VacancyReasons"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Get Restrictions Of Use",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccounting/RestrictionsOfUse?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccounting",
+                    "RestrictionsOfUse"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Wowiport Api Get Rent Index",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/RentAccounting/RentIndex?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "RentAccounting",
+                    "RentIndex"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mitgliedschaften",
+      "item": [
+        {
+          "name": "Cooperative Management",
+          "item": [
+            {
+              "name": "Cooperative Management Get Cooperative Memberships",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CooperativeManagement/CooperativeMemberships?apiKey={{apiKey}}&Limit=100&Offset=0&IncludeLicenceagreement=true",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CooperativeManagement",
+                    "CooperativeMemberships"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "Limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "Offset",
+                      "value": "0"
+                    },
+                    {
+                      "key": "IncludeLicenceagreement",
+                      "value": "true"
+                    },
+                    {
+                      "key": "ActiveOn",
+                      "value": null,
+                      "disabled": true
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Cooperative Management Get Electoral Districts",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CooperativeManagement/ElectoralDistrict?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CooperativeManagement",
+                    "ElectoralDistrict"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Objektdaten",
+      "item": [
+        {
+          "name": "Commercial Inventory",
+          "item": [
+            {
+              "name": "Wowiport Api Get Districts",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/Districts?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "Districts"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Wowiport Api Get Building Types",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/BuildingTypes?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "BuildingTypes"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Managements",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/Managements?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "Managements"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Economic Units",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/EconomicUnits?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "EconomicUnits"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Building Lands",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/BuildingLands?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "BuildingLands"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Use Units",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/UseUnits?apiKey={{apiKey}}&limit=100",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "UseUnits"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "offset",
+                      "value": "5",
+                      "disabled": true
+                    },
+                    {
+                      "key": "useUnitId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "buildingId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "economicUnitId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "includeUseUnitTypes",
+                      "value": "true",
+                      "disabled": true
+                    },
+                    {
+                      "key": "includeBillingUnits",
+                      "value": "true",
+                      "disabled": true
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Use Unit Types",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/UseUnitTypes?apiKey={{apiKey}}&limit=5",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "UseUnitTypes"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "limit",
+                      "value": "5"
+                    },
+                    {
+                      "key": "offset",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "useUnitId",
+                      "value": null,
+                      "disabled": true
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Ancillary Expenses",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/AncillaryExpenses?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "AncillaryExpenses"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Owners",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/Owners?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "Owners"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Owners V1.1",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.1/CommercialInventory/Owners?apiKey={{apiKey}}&limit=100&offset=0&includeMainAddress=true&includeMainCommunication=true&includeMainBankaccount=true&includePersonAddresses=true&includePersonCommunications=true&includePersonBankAccounts=true",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.1",
+                    "CommercialInventory",
+                    "Owners"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "offset",
+                      "value": "0"
+                    },
+                    {
+                      "key": "ownerId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "ownerNumber",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "personId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "includeMainAddress",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includeMainCommunication",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includeMainBankaccount",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includePersonAddresses",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includePersonCommunications",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includePersonBankAccounts",
+                      "value": "true"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Facility",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/Facility?apiKey={{apiKey}}&Limit=100&Offset=0",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "Facility"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "Limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "Offset",
+                      "value": "0"
+                    },
+                    {
+                      "key": "useUnitId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "buildingId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "economicUnitId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "propertyId",
+                      "value": null,
+                      "disabled": true
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Facility Catalog",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/FacilityCatalog?apiKey={{apiKey}}&Limit=100&Offset=0",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "FacilityCatalog"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "Limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "Offset",
+                      "value": "0"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Facility by ID",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/Facility/:Id?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "Facility",
+                    ":Id"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "key": "Id",
+                      "value": ""
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Component",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/Component?apiKey={{apiKey}}&limit=100&Offset=0",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "Component"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "Offset",
+                      "value": "0"
+                    },
+                    {
+                      "key": "useUnitId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "facilityId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "buildingId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "landId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "economicUnitId",
+                      "value": null,
+                      "disabled": true
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Component Catalog",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/ComponentCatalog?apiKey={{apiKey}}&Limit=100&Offset=0",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "ComponentCatalog"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "Limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "Offset",
+                      "value": "0"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Component by Id",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/Component/:Id?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "Component",
+                    ":Id"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "key": "Id",
+                      "value": ""
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Energy Certificates",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/EnergyCertificates?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "EnergyCertificates"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Wowiport Api Get Use Unit Type Catalog",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/CommercialInventory/UseUnitTypeCatalog?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "CommercialInventory",
+                    "UseUnitTypeCatalog"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Use Units Jurisdiction",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.1/CommercialInventory/UseUnit/jurisdiction?apiKey={{apiKey}}&limit=100",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.1",
+                    "CommercialInventory",
+                    "UseUnit",
+                    "jurisdiction"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "offset",
+                      "value": "5",
+                      "disabled": true
+                    },
+                    {
+                      "key": "useUnitId",
+                      "value": null,
+                      "disabled": true
+                    },
+                    {
+                      "key": "economicUnitId",
+                      "value": null,
+                      "disabled": true
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get Economic Units Jurisdiction",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.1/CommercialInventory/EconomicUnit/jurisdiction?apiKey={{apiKey}}&limit=100",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.1",
+                    "CommercialInventory",
+                    "EconomicUnit",
+                    "jurisdiction"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "offset",
+                      "value": "5",
+                      "disabled": true
+                    },
+                    {
+                      "key": "economicUnitId",
+                      "value": null,
+                      "disabled": true
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Commercial Inventory Get ResponsibleOfficial",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.1/CommercialInventory/ResponsibleOfficial?apiKey={{apiKey}}&limit=100",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.1",
+                    "CommercialInventory",
+                    "ResponsibleOfficial"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "offset",
+                      "value": "5",
+                      "disabled": true
+                    },
+                    {
+                      "key": "economicUnitId",
+                      "value": null,
+                      "disabled": true
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Personendaten",
+      "item": [
+        {
+          "name": "Personendaten lesen",
+          "item": [
+            {
+              "name": "Person Data Read",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/PersonsRead/Persons?apiKey={{apiKey}}&limit=100&offset=0&includeCommunication=true&includeAddress=true&includeBankaccount=false",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "PersonsRead",
+                    "Persons"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "offset",
+                      "value": "0"
+                    },
+                    {
+                      "key": "personId",
+                      "value": "",
+                      "disabled": true
+                    },
+                    {
+                      "key": "includeCommunication",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includeAddress",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includeBankaccount",
+                      "value": "false"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Person Data Read by ID",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/PersonsRead/Person/:Id?apiKey={{apiKey}}&includeCommunication=true&includeAddress=true&includeBankaccount=false",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "PersonsRead",
+                    "Person",
+                    ":Id"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "includeCommunication",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includeAddress",
+                      "value": "true"
+                    },
+                    {
+                      "key": "includeBankaccount",
+                      "value": "false"
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "key": "Id",
+                      "value": ""
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Person Gender Data",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/PersonsRead/Gender?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "PersonsRead",
+                    "Gender"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Address Type",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/PersonsRead/AddressType?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "PersonsRead",
+                    "AddressType"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Country Data",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/PersonsRead/Country?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "PersonsRead",
+                    "Country"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Communication Type",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/PersonsRead/CommunicationType?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "PersonsRead",
+                    "CommunicationType"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Personendaten schreiben",
+          "item": [
+            {
+              "name": "Person",
+              "item": [
+                {
+                  "name": "Post new Person",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n  \"NodeId\": 0,\r\n  \"IsNaturalPerson\": true,\r\n  \"ValidFrom\": \"2022-08-09\",\r\n  \"ValidTo\": \"2022-08-09\",\r\n  \"LegalPerson\": {\r\n    \"LongName1\": \"string\",\r\n    \"LongName2\": \"string\",\r\n    \"VatId\": \"string\",\r\n    \"CommercialRegisterNumber\": \"string\",\r\n    \"CommercialRegisterTown\": \"string\"\r\n  },\r\n  \"NaturalPerson\": {\r\n    \"FirstName\": \"string\",\r\n    \"LastName\": \"string\",\r\n    \"BirthName\": \"string\",\r\n    \"CareOf\": \"string\",\r\n    \"Title\": \"string\",\r\n    \"BirthDate\": \"2022-08-09\",\r\n    \"DeathDate\": \"2022-08-09\",\r\n    \"GenderId\": 0,\r\n    \"MaritalTypeId\": 0,\r\n    \"NationalityId\": 0\r\n  },\r\n  \"FirstAddress\": {\r\n    \"AddressTypeId\": 0,\r\n    \"Zip\": \"string\",\r\n    \"Town\": \"string\",\r\n    \"Street\": \"string\",\r\n    \"HouseNumber\": \"string\",\r\n    \"HouseNumberAddition\": \"string\",\r\n    \"CountryId\": 0\r\n  },\r\n  \"Communications\": [\r\n    {\r\n      \"CommunicationTypeId\": 0,\r\n      \"Content\": \"string\",\r\n      \"Explanation\": \"string\"\r\n    }\r\n  ]\r\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/PersonsWrite/Person?apiKey={{apiKey}}",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "PersonsWrite",
+                        "Person"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "alternate Person Data",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "PUT",
+                    "header": [],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n  \"NodeId\": 0,\r\n  \"IsNaturalPerson\": true,\r\n  \"ValidFrom\": \"2022-08-09\",\r\n  \"ValidTo\": \"2022-08-09\",\r\n  \"LegalPerson\": {\r\n    \"LongName1\": \"string\",\r\n    \"LongName2\": \"string\",\r\n    \"VatId\": \"string\",\r\n    \"CommercialRegisterNumber\": \"string\",\r\n    \"CommercialRegisterTown\": \"string\"\r\n  },\r\n  \"NaturalPerson\": {\r\n    \"FirstName\": \"string\",\r\n    \"LastName\": \"string\",\r\n    \"BirthName\": \"string\",\r\n    \"CareOf\": \"string\",\r\n    \"Title\": \"string\",\r\n    \"BirthDate\": \"2022-08-09\",\r\n    \"DeathDate\": \"2022-08-09\",\r\n    \"GenderId\": 0,\r\n    \"MaritalTypeId\": 0,\r\n    \"NationalityId\": 0\r\n  }\r\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/PersonsWrite/Person/Person/:id?apiKey={{apiKey}}&personId=",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "PersonsWrite",
+                        "Person",
+                        "Person",
+                        ":id"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        },
+                        {
+                          "key": "personId",
+                          "value": ""
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Delete Person",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "DELETE",
+                    "header": [],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n  \"NodeId\": 0,\r\n  \"IsNaturalPerson\": true,\r\n  \"ValidFrom\": \"2022-07-18\",\r\n  \"ValidTo\": \"2022-07-18\",\r\n  \"LegalPerson\": {\r\n    \"LongName1\": \"string\",\r\n    \"LongName2\": \"string\",\r\n    \"VatId\": \"string\",\r\n    \"CommercialRegisterNumber\": \"string\",\r\n    \"CommercialRegisterTown\": \"string\"\r\n  },\r\n  \"NaturalPerson\": {\r\n    \"FirstName\": \"string\",\r\n    \"LastName\": \"string\",\r\n    \"BirthName\": \"string\",\r\n    \"CareOf\": \"string\",\r\n    \"Title\": \"string\",\r\n    \"BirthDate\": \"2022-07-18\",\r\n    \"DeathDate\": \"2022-07-18\",\r\n    \"GenderId\": 0,\r\n    \"MaritalTypeId\": 0,\r\n    \"NationalityId\": 0\r\n  },\r\n  \"FirstAddress\": {\r\n    \"AddressTypeId\": 0,\r\n    \"Zip\": \"string\",\r\n    \"Town\": \"string\",\r\n    \"Street\": \"string\",\r\n    \"HouseNumber\": \"string\",\r\n    \"HouseNumberAddition\": \"string\",\r\n    \"CountryId\": 0\r\n  },\r\n  \"Communications\": [\r\n    {\r\n      \"CommunicationTypeId\": 0,\r\n      \"Content\": \"string\",\r\n      \"Explanation\": \"string\"\r\n    }\r\n  ]\r\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/PersonsWrite/Person/:id?apiKey={{apiKey}}&personId=",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "PersonsWrite",
+                        "Person",
+                        ":id"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        },
+                        {
+                          "key": "personId",
+                          "value": ""
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "Address",
+              "item": [
+                {
+                  "name": "Delete Address",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "DELETE",
+                    "header": [],
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/PersonsWrite/Person/:id/Addresses/:childId?apiKey={{apiKey}}",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "PersonsWrite",
+                        "Person",
+                        ":id",
+                        "Addresses",
+                        ":childId"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": ""
+                        },
+                        {
+                          "key": "childId",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "New Address",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n    \"AddressTypeId\": ,\r\n    \"AddressType\": \"\",\r\n    \"Zip\": \"\",\r\n    \"Town\": \"\",\r\n    \"StreetComplete\": \"\",\r\n    \"HouseNumberComplete\": \"\",\r\n    \"Street\": \"\",\r\n    \"HouseNumber\": \"\",\r\n    \"HouseNumberAddition\": \"\",\r\n    \"CountryId\": ,\r\n    \"CountryCode\": \"\",\r\n    \"ValidFrom\": \"2022-12-01\",\r\n    \"ValidTo\": \"2022-12-31\"\r\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/PersonsWrite/Person/:id/Addresses?apiKey={{apiKey}}",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "PersonsWrite",
+                        "Person",
+                        ":id",
+                        "Addresses"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Change Address",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "PUT",
+                    "header": [],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n    \"AddressTypeId\": ,\r\n    \"AddressType\": \"\",\r\n    \"Zip\": \"\",\r\n    \"Town\": \"\",\r\n    \"StreetComplete\": \"\",\r\n    \"HouseNumberComplete\": \"\",\r\n    \"Street\": \"\",\r\n    \"HouseNumber\": \"\",\r\n    \"HouseNumberAddition\": \"\",\r\n    \"CountryId\": ,\r\n    \"CountryCode\": \"\",\r\n    \"ValidFrom\": \"2022-12-01\",\r\n    \"ValidTo\": \"2022-12-31\"\r\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/PersonsWrite/Person/:id/Addresses/:childId?apiKey={{apiKey}}",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "PersonsWrite",
+                        "Person",
+                        ":id",
+                        "Addresses",
+                        ":childId"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": ""
+                        },
+                        {
+                          "key": "childId",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "Communication",
+              "item": [
+                {
+                  "name": "New Communication",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n\"CommunicationTypeId\": ,\r\n\"CommunicationType\": \"\",\r\n\"RelatedAddress\": \"\",\r\n\"RelatedAddressId\": ,\r\n\"RelatedAccessibilityId\": ,\r\n\"Content\": \"\",\r\n\"Explanation\": \"\"\r\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/PersonsWrite/Person/:id/Communications?apiKey={{apiKey}}",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "PersonsWrite",
+                        "Person",
+                        ":id",
+                        "Communications"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Change Communication",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "PUT",
+                    "header": [],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n\"CommunicationTypeId\": ,\r\n\"CommunicationType\": \"\",\r\n\"RelatedAddress\": \"\",\r\n\"RelatedAddressId\": ,\r\n\"RelatedAccessibilityId\": ,\r\n\"Content\": \"\",\r\n\"Explanation\": \"\"\r\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/PersonsWrite/Person/:id/Communications/:childId?apiKey={{apiKey}}",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "PersonsWrite",
+                        "Person",
+                        ":id",
+                        "Communications",
+                        ":childId"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": ""
+                        },
+                        {
+                          "key": "childId",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Delete Communication",
+                  "request": {
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{access_token}}",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "method": "DELETE",
+                    "header": [],
+                    "url": {
+                      "raw": "{{baseUrl}}/openwowi/v1.0/PersonsWrite/Person/:id/Communications/:childId?apiKey={{apiKey}}",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "openwowi",
+                        "v1.0",
+                        "PersonsWrite",
+                        "Person",
+                        ":id",
+                        "Communications",
+                        ":childId"
+                      ],
+                      "query": [
+                        {
+                          "key": "apiKey",
+                          "value": "{{apiKey}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": ""
+                        },
+                        {
+                          "key": "childId",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vorgeschlagene Vertragsnehmer",
+      "item": [
+        {
+          "name": "Suggested Contractor",
+          "item": [
+            {
+              "name": "Rent Accounting Person Details Get Suggested Contractor",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/SuggestedContractor/SuggestedContractor?apiKey={{apiKey}}&limit=100&offset=0",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "SuggestedContractor",
+                    "SuggestedContractor"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "limit",
+                      "value": "100"
+                    },
+                    {
+                      "key": "offset",
+                      "value": "0"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Person Details POST Suggested Contractor - weitere Vetragsnehmer",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"LicenseAgreementId\": 0,\r\n  \"PersonId\": 0,\r\n  \"TypeOfUserId\": 0\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/SuggestedContractor/SuggestedContractor?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "SuggestedContractor",
+                    "SuggestedContractor"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Person Details POST Suggested Contractor - erster Vertragsnehmer",
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "exec": [
+                      ""
+                    ],
+                    "type": "text/javascript"
+                  }
+                },
+                {
+                  "listen": "prerequest",
+                  "script": {
+                    "exec": [
+                      ""
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"LicenseAgreementId\": 0,\r\n  \"PersonId\": 0,\r\n  \"TypeOfUserId\": 0,\r\n  \"EstimatedColdRent\": 0,\r\n  \"EstimatedPrepaymentHeating\": 0,\r\n  \"EstimatedRunningCost\": 0,\r\n  \"EstimatedTotalRent\": 0,\r\n  \"EstimatedContractSecurity\": 0,\r\n  \"EstimatedStartContract\": \"2022-08-09\",\r\n  \"ContractSignedAt\": \"2022-08-09\",\r\n  \"CommonSetEndOfContract\": \"2022-08-09\",\r\n  \"Address1\": \"string\",\r\n  \"Address2\": \"string\",\r\n  \"Address3\": \"string\",\r\n  \"Address4\": \"string\",\r\n  \"Address5\": \"string\",\r\n  \"Address6\": \"string\",\r\n  \"Title\": \"string\",\r\n  \"FutureUpdateRecipientAddress\": true,\r\n  \"TaxAgreementVatRateId\": 0,\r\n  \"LifeOfAContractId\": 0\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/SuggestedContractor/SuggestedContractor?apiKey={{apiKey}}",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "SuggestedContractor",
+                    "SuggestedContractor"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Person Details Put Suggested Contractor",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"LicenseAgreementId\": 0,\r\n  \"PersonId\": 0,\r\n  \"TypeOfUserId\": 0,\r\n  \"EstimatedColdRent\": 0,\r\n  \"EstimatedPrepaymentHeating\": 0,\r\n  \"EstimatedRunningCost\": 0,\r\n  \"EstimatedTotalRent\": 0,\r\n  \"EstimatedContractSecurity\": 0,\r\n  \"EstimatedStartContract\": \"2022-08-09\",\r\n  \"ContractSignedAt\": \"2022-08-09\",\r\n  \"CommonSetEndOfContract\": \"2022-08-09\",\r\n  \"Address1\": \"string\",\r\n  \"Address2\": \"string\",\r\n  \"Address3\": \"string\",\r\n  \"Address4\": \"string\",\r\n  \"Address5\": \"string\",\r\n  \"Address6\": \"string\",\r\n  \"Title\": \"string\",\r\n  \"FutureUpdateRecipientAddress\": true,\r\n  \"TaxAgreementVatRateId\": 0,\r\n  \"LifeOfAContractId\": 0\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/SuggestedContractor/SuggestedContractor/15?apiKey={{apiKey}}&id=",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "SuggestedContractor",
+                    "SuggestedContractor",
+                    "15"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "id",
+                      "value": ""
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Rent Accounting Person Details Delete Suggested Contractor",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{access_token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/openwowi/v1.0/SuggestedContractor/SuggestedContractor/15?apiKey={{apiKey}}&id=",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "openwowi",
+                    "v1.0",
+                    "SuggestedContractor",
+                    "SuggestedContractor",
+                    "15"
+                  ],
+                  "query": [
+                    {
+                      "key": "apiKey",
+                      "value": "{{apiKey}}"
+                    },
+                    {
+                      "key": "id",
+                      "value": ""
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Authentication Token",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "var jsonData = JSON.parse(responseBody);\r",
+              "postman.setGlobalVariable(\"access_token\", jsonData.access_token);\r",
+              "postman.setGlobalVariable(\"apiKey\", \"439ca4ac-5e65-4783-97cd-3d56492295ea\");"
+            ],
+            "type": "text/javascript"
+          }
+        },
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              "postman.setGlobalVariable(\"baseUrl\", \"https://openwowi-demo.wowiport.de\");"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "text/plain"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "grant_type",
+              "value": "password",
+              "description": "(Required) "
+            },
+            {
+              "key": "username",
+              "value": "hackathon"
+            },
+            {
+              "key": "password",
+              "value": "5olMnBRzaUrC9oIZA4w6;"
+            },
+            {
+              "key": "refresh_token",
+              "value": "3600"
+            },
+            {
+              "key": "systemId",
+              "value": "openwowi-demo.wowiport.de",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/oauth2/token",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "oauth2",
+            "token"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

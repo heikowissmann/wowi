@@ -1,0 +1,14 @@
+Steps to run the code:
+------------------------------------------
+
+** Compatibility: node version 18.12.1
+
+Download the project folder wowi-addresses
+In the command line terminal open the project folder
+
+Execute the following command
+- node wowi-addresses.js
+
+In the browser, use the endpoint:
+- localhost:5000
+
